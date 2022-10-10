@@ -10,6 +10,7 @@ Every few seconds, a new letter of the tag will be revealed to you! But if you t
 Be sure to guess in time~
 
 Here's what a game looks like:
+
 ![a bunch of images](https://kot.gay/sharex/chrome_Yg7pIQoTwQLwa7X.png)
 ![even more images](https://kot.gay/sharex/chrome_y6M1Jq1bYHy2qSv.png)
 ![a hint and correct answer of "sign"](https://kot.gay/sharex/chrome_omS6kXxHcz3uUej.png)
