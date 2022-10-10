@@ -1,0 +1,39 @@
+[package]
+name = "risu"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+log = { version = "0.4.17", features = ["serde"] }
+kaf = "1.0.2"
+
+dotenv = "0.15.0"
+envy = "0.4.2"
+
+serde = { version = "1.0.145", features = ["derive"] }
+serde_json = "1.0.86"
+
+tokio = { version = "1.21.2", features = ["full"] }
+
+reqwest = { version = "0.11.12", features = ["json"] }
+percent-encoding = "2.2.0"
+
+rand = { version = "0.8.5", features = ["small_rng"] }
+regex = "1.6.0"
+lazy_static = "1.4.0"
+
+[dependencies.serenity]
+default-features = false
+features = [
+    "collector",
+    "builder",
+    "client",
+    "framework",
+    "gateway",
+    "http",
+    "model",
+    "standard_framework",
+    "utils",
+    "rustls_backend",
+]
+version = "0.11.5"

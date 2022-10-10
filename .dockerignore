@@ -1,0 +1,5 @@
+/target
+*.local
+.vscode/
+.env*
+data/

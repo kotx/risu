@@ -1,0 +1,12 @@
+app = "risu"
+kill_signal = "SIGINT"
+kill_timeout = 5
+processes = []
+
+[env]
+  RISU_LOG="DEBUG"
+  RISU_PREFIX="%"
+
+[experimental]
+  allowed_public_ports = []
+  auto_rollback = true
