@@ -6,8 +6,8 @@ import sys
 import re
 import json
 
-TAGS_PAGE_URL = 'https://danbooru.donmai.us/tags.json?limit=1000&search[order]=count&page={}'
-TAG_ALIASES_PAGE_URL = 'https://danbooru.donmai.us/tag_aliases.json?limit=1000&page={}'
+TAGS_PAGE_URL = 'https://safebooru.donmai.us/tags.json?limit=1000&search[order]=count&page={}'
+TAG_ALIASES_PAGE_URL = 'https://safebooru.donmai.us/tag_aliases.json?limit=1000&page={}'
 
 PAGES = 9  # 9000 tags
 
