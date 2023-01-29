@@ -1,14 +1,14 @@
 FROM python:3 AS scraper
 
 WORKDIR /app
-RUN mkdir ./data
 COPY ./fetch_tags.py .
 
 # hadolint ignore=DL3013
-RUN pip install --no-cache-dir requests
+RUN pip install --no-cache-dir pipenv
+RUN pipenv install
 
-    # hadolint ignore=DL3059
-RUN python ./fetch_tags.py
+# hadolint ignore=DL3059
+RUN pipenv run python ./fetch_tags.py
 
 FROM rust:slim AS builder
 # hadolint ignore=DL3008
